@@ -1,16 +1,18 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ page session="false" %>
-<html>
-<head>
-	<title>Home</title>
-</head>
-<body>
+
+
+<%@ include file="common/header.jspf" %>
+<main>
+<%@ include file="common/navigation.jspf" %>
+
 <h1>
 	Hello world! - 
 </h1>
 ${controllerMessage}<br/>
 <br/>
 <br/>
-<a href="person/list">Go to the person list</a>
+<a class="btn btn-default" href="person/list">List People</a>
+
+</main>
+<%@ include file="common/footer.jspf" %>
 </body>
 </html>

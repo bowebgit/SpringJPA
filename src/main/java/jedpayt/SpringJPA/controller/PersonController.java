@@ -25,7 +25,7 @@ public class PersonController {
 	
 	@RequestMapping(method=RequestMethod.GET,value="edit")
 	public ModelAndView editPerson(@RequestParam(value="id",required=false) Long id) {		
-		logger.info("Received request to edit person id : "+id);				
+		logger.info("Request to edit person id : "+id);				
 		ModelAndView mav = new ModelAndView();		
  		mav.setViewName("edit");
  		Person person = null;
@@ -50,7 +50,7 @@ public class PersonController {
 	
 	@RequestMapping(method=RequestMethod.GET,value="list")
 	public ModelAndView listPeople() {
-		logger.info("Received request to list persons");
+		logger.info("Request to list persons");
 		ModelAndView mav = new ModelAndView();
 		List<Person> people = personDao.getPeople();
 		logger.info("Person Listing count = "+people.size());

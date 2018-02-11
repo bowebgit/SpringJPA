@@ -1,11 +1,8 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ page session="false" %>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<html>
-<head>
-	<title>Home</title>
-</head>
-<body>
+
+<%@ include file="common/header.jspf" %>
+<main>
+<%@ include file="common/navigation.jspf" %>
+
 <h1>
 	Editing Person ${person.id} - ${person.firstName}  ${person.lastName} 
 </h1>
@@ -21,5 +18,9 @@
     </p>
     <input type="submit" value="Save"/>
 </form:form>
+
+</main>
+
+<%@ include file="common/footer.jspf" %>
 </body>
 </html>
