@@ -1,9 +1,10 @@
-package jedpayt.SpringJPA.controller;
+package jedpayt.controller;
 
 import java.util.List;
 
-import jedpayt.SpringJPA.dao.PersonDao;
-import jedpayt.SpringJPA.model.Person;
+import jedpayt.dao.PersonDao;
+import jedpayt.model.Person;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

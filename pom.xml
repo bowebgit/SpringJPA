@@ -12,7 +12,7 @@
 		<jetty.version>6.1.4</jetty.version>
 		<spring.version>3.0.5.RELEASE</spring.version>
 		<slf4j.version>1.5.10</slf4j.version>
-		<java.version>1.5</java.version>
+		<java.version>1.8</java.version>
 		<junit.version>4.8.2</junit.version>
 	</properties>
 
@@ -36,7 +36,7 @@
 		</dependency>
 
 		<!-- JPA Persistence Dependencies -->
-
+		
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-entitymanager</artifactId>
@@ -138,6 +138,7 @@
 			<version>1.9.1</version>
 		</dependency>
 		 -->
+		 
 		<!-- Test Dependencies -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -235,7 +236,7 @@
 				</configuration>
 			</plugin>
 
-			<!-- Ensures we are compiling at 1.6 level -->
+			<!-- Ensures we are compiling specified java level -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>

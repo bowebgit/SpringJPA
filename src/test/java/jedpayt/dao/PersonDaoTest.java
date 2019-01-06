@@ -1,9 +1,11 @@
-package jedpayt.SpringJPA.dao;
+package jedpayt.dao;
 
 import java.util.List;
 
-import jedpayt.SpringJPA.controller.DataInitializer;
-import jedpayt.SpringJPA.model.Person;
+import jedpayt.controller.DataInitializer;
+import jedpayt.dao.PersonDao;
+import jedpayt.model.Person;
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

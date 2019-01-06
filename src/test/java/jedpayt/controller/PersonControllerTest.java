@@ -1,4 +1,4 @@
-package jedpayt.SpringJPA.controller;
+package jedpayt.controller;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -7,7 +7,9 @@ import static org.junit.Assert.assertTrue;
 
 import java.util.List;
 
-import jedpayt.SpringJPA.model.Person;
+import jedpayt.controller.PersonController;
+import jedpayt.model.Person;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

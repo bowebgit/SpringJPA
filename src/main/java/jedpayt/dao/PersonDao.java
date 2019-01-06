@@ -1,13 +1,14 @@
-package jedpayt.SpringJPA.dao;
+package jedpayt.dao;
 
 import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-import jedpayt.SpringJPA.model.Person;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
+
+import jedpayt.model.Person;
 
 @Repository
 public class PersonDao {

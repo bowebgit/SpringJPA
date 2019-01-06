@@ -1,4 +1,4 @@
-package jedpayt.SpringJPA.model;
+package jedpayt.model;
 
 import java.io.Serializable;
 
